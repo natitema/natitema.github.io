@@ -1,0 +1,31 @@
+h1 {
+	color: #333333;
+	font-family: Tahoma;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 81px;
+}
+
+.col-xl-2, .col-6{
+	color: #333333;
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width:700px) {
+	.col-6 {
+		display: none;
+	}
+}
+
+@media screen and (max-width:700px) {
+	.col-xl-2 {
+		display: none;
+	}
+}
+
